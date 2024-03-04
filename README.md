@@ -1,6 +1,6 @@
 # Finance-Analytics-Reports--SQL
 
-###### Generated Excel Reports using SQL Joins, Functions, Stored Procedures for : 
+#### Generated Excel Reports using SQL Joins, Functions, Stored Procedures for : 
 1. Product Level Monthly Gross Sales of Croma in India FY 2021 2.
 2. Monthly Gross Sales Of Croma in India for FY 2021
 
