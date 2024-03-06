@@ -8,8 +8,8 @@ with preinv as
 		select s.date, s.fiscal_year, s.customer_code, s.product_code, p.product, c.market, p.variant, s.sold_quantity, g.gross_price, 
 		round(g.gross_price*s.sold_quantity, 2) as gross_amount, pre.pre_invoice_discount_pct
 		from fact_sales_monthly s
-        join dim_customer c
-        on s.customer_code = c.customer_code
+	        join dim_customer c
+	        on s.customer_code = c.customer_code
 		join dim_product p
 		on s.product_code = p.product_code
 		join fact_gross_price g
@@ -33,7 +33,7 @@ select
 	s.date, 
 	s.fiscal_year,
 	s.customer_code,
-    s.product_code, 
+    	s.product_code, 
 	p.product, 
 	c.market,
 	p.variant, 
