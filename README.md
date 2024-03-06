@@ -12,6 +12,7 @@
 - This Project helped understand the Profit And Loss Statement and Finance Operations.
 
 Created Views for calculating Pre-Invoice Deductions, Post Invoice Deductions and Net Sales.
+
 Implemented Stored Procedures to Find Top N Customers, Markets and Products.
 
 This project helped to understand the Profit and Loss Statement.
