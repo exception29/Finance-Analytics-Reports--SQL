@@ -20,7 +20,7 @@ Generated Excel Reports for:
 
 Created Views for calculating Pre-Invoice Deductions, Post Invoice Deductions and Net Sales.
 
-## *<u>net-invoice query optimization:</u>
+## *<u>net-invoice query optimization:</u>*
 Approach 1:
 
 Optimizing the query by reducing the function call for every repeated date record in fact_sales_monthly 
