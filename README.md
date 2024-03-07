@@ -20,6 +20,19 @@ Generated Excel Reports for:
 
 Created Views for calculating Pre-Invoice Deductions, Post Invoice Deductions and Net Sales.
 
+## *<u>net-invoice query optimization:</u>
+Approach 1:
+
+Optimizing the query by reducing the function call for every repeated date record in fact_sales_monthly 
+Created separate dim_date table and joined dim_date to get fiscal_year.
+This optimized the performance by 50%.
+
+Approach 2:
+
+Instead of creating dim_date, directly adding the fiscal_year column in fact_sales_monthly table.
+1.4M rows will be added. Fiscal_year with same calculation for repeated date but we can save the join done on dim_date FY
+This increased the efficiency by 80%.
+
 ## *<u>top markets products customers.sql:<u/>*
 
 Implemented Stored Procedures to Find Top N Customers, Markets and Products.
