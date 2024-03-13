@@ -6,7 +6,7 @@
 
 Generated Excel Reports for:
 
-1. Product Level Monthly Gross Sales of Croma in India FY 2021 2.
+1. Product Level Monthly Gross Sales of Croma in India FY 2021 
 2. Monthly Gross Sales Of Croma in India for FY 2021
 
 - For generating Report of Croma at India market, fetched the customer code for Croma India.
